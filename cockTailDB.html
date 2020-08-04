@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CockTailDB</title>
+</head>
+<style>
+    .headdiv {
+        background-image: url("https://fsa.zobj.net/crop.php?r=6Y3OHHSg8C4e_cAQEc05h_ekZU5kkovLh6owSHsh38lUQbImFBTHUu1oC0sP8Cem5dVMIJxt3A6qRb1muLUnhOT0qS0r6gL-_dr6lRw7JxxNXG2jZht_3v7-V0H5MCVi-HI0TtgfmpWWnlYF");
+    }
+</style>
+
+<body>
+    <Cdiv class="container-fluid">
+        <div class="card text-center">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <div class="form-group"><label for="name">Enter here</label>
+                            <input type="text" id="name" name="name" class=""></div>
+                    </li>
+                    <li class="nav-item">
+                        <button id="printUsers" onclick="getData()"> Click here</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="headdiv img-fluid center-text">
+            <p class="display-1">CockTails Daily</p>
+            <p class="display-3">Mixing spirits and liqueurs with other ingredients to create your dream drink</p>
+        </div>
+       <div id='carouselDiv' class='container-fluid'>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="d-block w-100" alt="..." id='img1'>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" alt="..." id='img2'>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" alt="..." id='img3'>
+              </div>
+            </div>
+          </div>
+       </div>
+        <div id="cocktail" class="row">
+
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="cockTailDB.js"></script>
+
+</html>
